@@ -1,0 +1,29 @@
+
+@keyframes anchor__move {
+    from {
+        transform: translateX(80%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+footer a {
+    animation: anchor__move 1s;
+}
+
+@keyframes logo__move {
+    from {
+        transform: translateX(-20%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+header a {
+    animation: logo__move 1s;
+}
+

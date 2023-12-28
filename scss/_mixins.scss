@@ -1,0 +1,4 @@
+@mixin d__flex($col) {
+    display: flex; 
+    flex-direction: $col;
+}
