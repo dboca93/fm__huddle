@@ -234,6 +234,7 @@ footer a {
   width: 3.125rem;
   height: 3.125rem;
   border-radius: 50%;
+  -webkit-border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -294,6 +295,9 @@ footer a i {
 @media only screen and (max-width: 27.5em) {
   section {
     padding: 5vh 5vh 3.5vh;
+  }
+  header a img {
+    scale: 0.9;
   }
 }
 @keyframes anchor__move {
