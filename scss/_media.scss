@@ -1,7 +1,7 @@
 @media only screen and (max-width: 61.25em) {
-body {
+  body {
     background-image: url("/images/bg-mobile.svg");
-}
+  }
 
   section {
     grid-template-areas:
@@ -9,17 +9,13 @@ body {
       "article__area";
     height: auto;
     grid-template-columns: minmax(20rem, 40.625rem);
-    min-width: 20rem; 
+    min-width: 20rem;
     justify-content: center;
-
-    picture__area {
-        outline: 0.625rem solid red; 
-    }
 
     article {
       gap: 3vw;
       align-items: center;
-      margin-left: 0; 
+      margin-left: 0;
 
       h2 {
         align-self: center;
@@ -30,14 +26,13 @@ body {
             margin-top: 1vw;
           }
         }
-        }
+      }
 
-        
-        p {
-            text-align: center; 
-            line-height: 1.7;
-            font-weight: map-get($font__weights, regular);
-          }
+      p {
+        text-align: center;
+        line-height: 1.7;
+        font-weight: map-get($font__weights, regular);
+      }
     }
   }
 
@@ -45,18 +40,13 @@ body {
     justify-content: center;
 
     a:nth-child(3) {
-        margin-right: 0;
+      margin-right: 0;
     }
   }
 }
 
-
 @media only screen and (max-width: 27.5em) {
-    section {
-        padding: 5vh 5vh 3.5vh; 
-    }
-
-    header a img {
-        scale: 0.9;
-    }
+  section {
+    padding: 5vh 5vh 3.5vh;
+  }
 }

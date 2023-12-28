@@ -103,7 +103,6 @@ meter {
   all: revert;
 }
 
-/* outline */
 * {
   margin: 0;
   padding: 0;
@@ -150,6 +149,9 @@ header {
   justify-content: start;
   height: 10vh;
   margin-bottom: 2.5vh;
+}
+header a img {
+  scale: 0.9;
 }
 
 section {
@@ -265,9 +267,6 @@ footer a i {
     min-width: 20rem;
     justify-content: center;
   }
-  section picture__area {
-    outline: 0.625rem solid red;
-  }
   section article {
     gap: 3vw;
     align-items: center;
@@ -295,9 +294,6 @@ footer a i {
 @media only screen and (max-width: 27.5em) {
   section {
     padding: 5vh 5vh 3.5vh;
-  }
-  header a img {
-    scale: 0.9;
   }
 }
 @keyframes anchor__move {
